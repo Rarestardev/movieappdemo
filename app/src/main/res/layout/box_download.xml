@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/clickDownload"
+    android:backgroundTint="@color/PlayBox_bg"
+    android:layout_marginBottom="5dp"
+    android:layoutDirection="rtl">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            Tools:text="دانلود"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="gravity"
+            android:gravity="center_vertical"
+            android:layout_toStartOf="@+id/view"
+            Tools:ignore="RelativeOverlap" />
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vol_storage_download"
+            android:layout_toStartOf="@id/volume"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/imageView_download"
+            Tools:text="(3.6 GB)"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            />
+        <ImageView
+            android:id="@+id/imageView_download"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/baseline_download_24"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            Tools:ignore="ContentDescription" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

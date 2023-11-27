@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_name"
+        android:title="@string/menu_name"
+        />
+    <item
+        android:id="@+id/menu_genre"
+        android:title="@string/menu_genre"
+        />
+    <item
+        android:id="@+id/menu_year"
+        android:title="@string/menu_year"
+        />
+</menu>

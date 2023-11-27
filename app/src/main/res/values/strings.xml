@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">BestMovie</string>
+    <string name="my_bio">rareStar.dev@gmail.com</string>
+    <string name="about_us">رسانه اینترنتی امپایر بست تی وی حدود سال 1397 شروع به فعالیت کرد و رفته رفته با قرار دادن بهترین انکودر های فیلم و سریال و سریعتر منتشر کننده در ایران ، به کار خود ادامه داده تا به این مرحله برسد.</string>
+    <!-- MainActivity Titles-->
+    <string name="title_view_movie_mainActivity">فیلم ها</string>
+    <string name="title_view_serial_mainActivity">سریال ها</string>
+    <string name="title_view_animation_mainActivity">انیمیشن ها</string>
+    <string name="title_view_new_mainActivity">سریال های به روز شده</string>
+    <string name="text_more">مشاهده بیشتر</string>
+    <string name="userRate">انتخاب کاربران</string>
+    <!-- Buttons-->
+    <string name="btn_play">پخش</string>
+    <string name="btn_filter">فیلتر</string>
+    <string name="btn_newComment">ارسال نظر</string>
+    <string name="btn_pause_download">توقف</string>
+    <!-- playActivity-->
+    <string name="director">کارگردان :</string>
+    <string name="genre">ژانر :</string>
+    <string name="desc">خلاصه :</string>
+    <string name="comment">نظرات :</string>
+    <string name="selected">فایل مورد نظر را انتخاب کنید:</string>
+    <string name="time">مدت زمان :</string>
+    <string name="age">رده سنی :</string>
+    <string name="rate">امتیاز کاربران :</string>
+    <string name="items">موارد مشابه :</string>
+    <!-- Menu Items-->
+    <string name="item_movies">فیلم ها</string>
+    <string name="item_serials">سریال ها</string>
+    <string name="item_animations">انیمیشن ها</string>
+    <string name="item_trending">جدید ترین ها</string>
+    <string name="item_Imdb">250 فیلم برتر IMDB</string>
+    <string name="item_userRate">250 فیلم برتر انتخاب کاربران</string>
+    <string name="item_share">ارسال به دیگران</string>
+    <string name="item_aboutUs">درباره ما</string>
+    <string name="item_ContactUs">ارتباط با ما</string>
+    <string name="item_exit">خروج از برنامه</string>
+    <string name="menu_year">سال</string>
+    <string name="menu_genre">ژانر</string>
+    <string name="menu_name">نام فیلم</string>
+    <!-- Login_Activity and register-->
+    <string name="username">نام کاربری</string>
+    <string name="password">گذر واژه</string>
+    <string name="new_pass">گذرواژه جدید</string>
+    <string name="save">ثبت</string>
+    <string name="rePassword">تکرار گذر واژه</string>
+    <string name="btn_login">ورود</string>
+    <string name="btn_register">ساخت حساب کاربری</string>
+    <string name="email">ایمیل</string>
+    <string name="btn_logout">خروج از حساب</string>
+    <string name="checkBoxText">نمایش گذر واژه</string>
+    <string name="loginText">آیا از قبل حساب کاربری دارید؟</string>
+    <string name="registerText">آیا حساب کاربری ندارید؟</string>
+    <string name="forget">گذر واژه را فراموش کردم!</string>
+    <string name="recover_pass_title">بازیابی گذر واژه</string>
+    <string name="recover_pass">بازیابی</string>
+    <!-- Search_Activity-->
+    <string name="editText_hint">جست و جو</string>
+    <string name="appbar_search">جست و جو فیلم و سریال</string>
+    <!-- Saved_Activity-->
+    <!-- Comment_Activity-->
+    <!-- Stars_Activity-->
+    <string name="Works_Actor"> از آثار این ستاره :</string>
+    <!-- VideoPLayer-->
+    <string name="mute">سکوت</string>
+    <string name="nightMode">حالت تاریک</string>
+    <string name="vol_up">تنظیم صدا</string>
+    <string name="volume">میزان صدا :</string>
+    <string name="play_speed">سرعت پخش</string>
+    <string name="brightness">روشنایی</string>
+    <string name="EQ">اکولایزر</string>
+    <string name="version">v 1.0</string>
+    <string name="btn_back">بازگشت</string>
+    <string name="dialog_playMovie_register">برای ذخیره فیلم باید حساب کاربری داشته باشید!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Send">ارسال</string>
+    <string name="Comment">نظر خود را بنویسید…</string>
+    <string name="playTrailer">پخش تریلر</string>
+    <string name="NoDataSavedFragment">هیچ فایلی ذخیره نشده است</string>
+    <string name="playing">انتخاب کیفیت پخش :</string>
+    <string name="vol_storage_download">با حجم :</string>
+    <string name="superstars">بازیگران:</string>
+    <string name="country">محصول کشور :</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/zoom_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom"
+        android:visibility="gone"
+        android:background="@drawable/progress_bar_bg"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/zoom_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            tools:text="50%"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/double_tap_play_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:background="@drawable/progress_bar_bg"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/baseline_pause_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/btn_pause_download"
+                android:textColor="@color/white"
+                android:textSize="21sp"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

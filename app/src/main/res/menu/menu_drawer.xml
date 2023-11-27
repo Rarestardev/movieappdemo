@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_movies"
+        android:title="@string/item_movies"
+        android:icon="@drawable/baseline_movie_24"/>
+    <item
+        android:id="@+id/menu_serials"
+        android:title="@string/item_serials"
+        android:icon="@drawable/baseline_movie_24"/>
+    <item
+        android:id="@+id/menu_animations"
+        android:title="@string/item_animations"
+        android:icon="@drawable/baseline_movie_24"/>
+    <item
+        android:id="@+id/menu_trending"
+        android:title="@string/item_trending"
+        android:icon="@drawable/baseline_fiber_new_24"/>
+    <item
+        android:id="@+id/menu_imdb"
+        android:title="@string/item_Imdb"
+        android:icon="@drawable/imdb_64"
+        />
+    <item
+        android:id="@+id/menu_userRate"
+        android:title="@string/item_userRate"
+        android:icon="@drawable/baseline_star_24"/>
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/item_share"
+        android:icon="@drawable/baseline_share_24"/>
+    <item
+        android:id="@+id/menu_aboutUs"
+        android:title="@string/item_aboutUs"
+        android:icon="@drawable/baseline_info_24"/>
+    <item
+        android:id="@+id/menu_contactUs"
+        android:title="@string/item_ContactUs"
+        android:icon="@drawable/baseline_contact_support_24"/>
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/item_exit"
+        android:icon="@drawable/baseline_exit_to_app_24"/>
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="black">#AD000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="base_drawer">#E618191B</color>
+    <color name="base_color">#E60F1115</color>
+    <color name="bg_cardView_small">#66353536</color>
+    <color name="bg_login_register_field">#14151D</color>
+    <color name="bg_login_register_btn">#031170</color>
+
+
+    <color name="black_light">#00000000</color>
+
+    <color name="name_genre_color">#DAFF0000</color>
+    <color name="imdb_color">#B2FF9800</color>
+
+    <color name="bg_btnPlay">#DAA30101</color>
+    <color name="bg_btnPlayTrailer">#B3A30101</color>
+    <color name="bg_btnDownload">#DA423838</color>
+
+
+    <color name="black_overlay">#94555454</color>
+    <color name="nightMode">#99000000</color>
+    <color name="Dialog_box">#000000</color>
+    <color name="PlayBox_bg">#050505</color>
+    <color name="comment_bg">#191919</color>
+    <color name="quality_serial_bg">#B3070707</color>
+</resources>

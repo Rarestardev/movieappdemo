@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <androidx.cardview.widget.CardView
+        android:id="@+id/parent"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="4dp"
+        >
+        <ImageView
+            android:id="@+id/imageSlide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="movie name"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:padding="2dp"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/imdbRate"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            tools:text="7.8"
+            android:layout_gravity="start"
+            android:background="@color/imdb_color"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            tools:ignore="RtlCompat" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
